@@ -14,17 +14,17 @@
     max-width: 15vw;
     text-align: center;
   }
-  .singleCardDiv{
+  .singleCardDiv {
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
     width: 60%;
     background-color: antiquewhite;
-    p{
-        padding: 10px;
-        width: 90%;
-        text-align: justify;
-        margin-top: 0;
+    p {
+      padding: 10px;
+      width: 90%;
+      text-align: justify;
+      margin-top: 0;
     }
     .detailsDiv {
       height: 50vh;
@@ -35,7 +35,7 @@
       min-width: 20vw;
       max-width: 28vw;
       ul {
-          margin-left: 4vw;
+        margin-left: 4vw;
         font-size: 25px;
         font-weight: bold;
         text-align: justify;

@@ -15,7 +15,7 @@ const SinglePage = (props) => {
   useEffect((e) => {
     fetch(`https://api.tvmaze.com/shows/${props.movie.id}/cast`)
       .then((result) => result.json())
-      .then((data) => setCast(data))
+      .then((data) => setCast(data));
   }, []);
 
   return (
@@ -37,15 +37,20 @@ const SinglePage = (props) => {
           <ul>
             Cast:
             {cast.map((e, i) => {
-              return ( i < 10 ? <li key={e.character.id}>{e.person.name} As {e.character.name}</li> : null
-              );
+              return i < 10 ? (
+                <li key={e.character.id}>
+                  {e.person.name} As {e.character.name}
+                </li>
+              ) : null;
             })}
           </ul>
         </div>
         <div className="descriptionDiv">
-            <p><b>Description:</b><br/>
-              {props.movie.summary}
-            </p>
+          <p>
+            <b>Description:</b>
+            <br />
+            {props.movie.summary}
+          </p>
         </div>
       </div>
       <Link to={`/`} onClick={() => props.setMovie("")}>

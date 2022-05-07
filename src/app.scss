@@ -1,14 +1,14 @@
-#bodyDiv{
+#bodyDiv {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  main {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    main{
-        display: flex;
-        flex-grow: 1;
-        background-color: darkgray;
-        max-width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+    flex-grow: 1;
+    background-color: darkgray;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }

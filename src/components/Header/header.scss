@@ -1,20 +1,20 @@
-#header{
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-shrink: 0;
-    background-color: black;
-    a{
-        font-size: 35px;
-        font-weight: bold;
-        color: white;
-        text-decoration: none;
-    }
-    input{
-        height: 5vh;
-        width: 15vw;
-        padding-left: 20px;
-        font-size: 25px;
-    }
+#header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: black;
+  a {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  input {
+    height: 5vh;
+    width: 15vw;
+    padding-left: 20px;
+    font-size: 25px;
+  }
 }
