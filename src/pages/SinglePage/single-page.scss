@@ -1,0 +1,59 @@
+.singleMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    max-width: 15vw;
+    text-align: center;
+  }
+  .singleCardDiv{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    background-color: antiquewhite;
+    p{
+        padding: 10px;
+        width: 90%;
+        text-align: justify;
+        margin-top: 0;
+    }
+    .detailsDiv {
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 0;
+      min-width: 20vw;
+      max-width: 28vw;
+      ul {
+          margin-left: 4vw;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: justify;
+        li {
+          font-size: 15px;
+          width: 25vw;
+          text-align: justify;
+        }
+      }
+      h2 {
+        margin: 0;
+      }
+    }
+    img {
+      width: 30vw;
+      height: 50vh;
+      margin-bottom: 0;
+      border-radius: 10px;
+    }
+  }
+}
